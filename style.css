@@ -18,48 +18,13 @@ body {
     background-size: cover;
 }
 
-/* Media query for smaller screens */
-@media (max-width: 768px) {
+/* Example of a media query for screens smaller than 768px */
+@media only screen and (max-width: 400px) {
     body {
-        background-size: cover; /* Adjust size to cover the viewport */
+        width: 90%;
+        height: 90%;
     }
 }
-
-/* Media query for larger screens */
-@media (min-width: 769px) {
-    body {
-        background-size: cover; /* Adjust size to fit within the viewport */
-    }
-}
-
-
-
-/* Add a black background color to the top navigation 
-.topnav {
-    background-color: transparent;
-    overflow: hidden;
-}
-*/
-/* Style the links inside the navigation bar 
-.topnav a {
-    float: left;
-    display: block;
-    color: #fcf4d9;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    font-family: 'Creepster', sans-serif;
-}
-.topnav a:hover{
-    color: red;
-}
-
-/* Add an active class to highlight the current page 
-.topnav a.active {
-    color: #fcf4d9;
-}
-*/
 
 /* sidebar menu*/
 .sidenav {
