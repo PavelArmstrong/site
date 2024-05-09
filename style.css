@@ -87,6 +87,7 @@ footer {
 
 .social-media {
     margin-top: 10px; /* Spacing between social media links */
+    display: grid;
 }
 
 .social-media a {
