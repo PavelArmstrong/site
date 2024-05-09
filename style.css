@@ -15,7 +15,6 @@ header {
 
 body {
     background-image: url(https://png.pngtree.com/background/20230608/original/pngtree-in-the-style-of-creepypasta-picture-image_2903936.jpg);
-    max-width: 100%;
 }
 
 /* Example of a media query for screens smaller than 768px */
@@ -28,7 +27,7 @@ body {
 
 /* sidebar menu*/
 .sidenav {
-    height: auto; /* Full-height: remove this if you want "auto" height */
+    height: 100px; /* Full-height: remove this if you want "auto" height */
     width: auto; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     background-color: transparent; /* transparent */
