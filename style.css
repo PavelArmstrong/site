@@ -15,7 +15,8 @@ header {
 
 body {
     background-image: url(https://png.pngtree.com/background/20230608/original/pngtree-in-the-style-of-creepypasta-picture-image_2903936.jpg);
-    background-size: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Example of a media query for screens smaller than 768px */
